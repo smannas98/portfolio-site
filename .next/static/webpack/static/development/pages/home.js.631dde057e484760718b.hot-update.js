@@ -1,4 +1,4 @@
-webpackHotUpdate("static/development/pages/index.js",{
+webpackHotUpdate("static/development/pages/home.js",{
 
 /***/ "./pages/home.js":
 /*!***********************!*\
@@ -16,6 +16,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _babel_runtime_corejs2_helpers_esm_inherits__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/inherits */ "./node_modules/@babel/runtime-corejs2/helpers/esm/inherits.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_5__);
+/* harmony import */ var _components_NavBar__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../components/NavBar */ "./components/NavBar.js");
 
 
 
@@ -23,6 +24,7 @@ __webpack_require__.r(__webpack_exports__);
 
 var _jsxFileName = "/Users/sean/portfolio-site/pages/home.js";
 
+ //import '../static/bulma.css';
 
 var Home =
 /*#__PURE__*/
@@ -41,16 +43,16 @@ function (_Component) {
       return react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 6
+          lineNumber: 8
         },
         __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("h1", {
+      }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(_components_NavBar__WEBPACK_IMPORTED_MODULE_6__["default"], {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 7
+          lineNumber: 9
         },
         __self: this
-      }, "This is my future portfolio site."));
+      }));
     }
   }]);
 
@@ -62,4 +64,4 @@ function (_Component) {
 /***/ })
 
 })
-//# sourceMappingURL=index.js.17231c2a6446ab134ec9.hot-update.js.map
+//# sourceMappingURL=home.js.631dde057e484760718b.hot-update.js.map
